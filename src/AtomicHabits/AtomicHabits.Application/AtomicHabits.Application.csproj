@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AtomicHabits.Domain\AtomicHabits.Domain.csproj" />
+      <ProjectReference Include="..\AtomicHabits.Infrastructure.DAL\AtomicHabits.Infrastructure.DAL.csproj" />
+      <ProjectReference Include="..\AtomicHabits.Infrastructure\AtomicHabits.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

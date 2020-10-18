@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Domain", "Atom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Server", "AtomicHabits.Server\AtomicHabits.Server.csproj", "{A8FC3C18-888E-44C6-B6B4-B8F39D0DFB03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Infrastructure.DAL", "AtomicHabits.Infrastructure.DAL\AtomicHabits.Infrastructure.DAL.csproj", "{659AFD08-AFDC-497A-8ACB-4C33203664B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Application", "AtomicHabits.Application\AtomicHabits.Application.csproj", "{B14484AC-7596-4C3C-A5E4-253DF3EEB4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Infrastructure", "AtomicHabits.Infrastructure\AtomicHabits.Infrastructure.csproj", "{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{A8FC3C18-888E-44C6-B6B4-B8F39D0DFB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FC3C18-888E-44C6-B6B4-B8F39D0DFB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FC3C18-888E-44C6-B6B4-B8F39D0DFB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659AFD08-AFDC-497A-8ACB-4C33203664B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659AFD08-AFDC-497A-8ACB-4C33203664B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659AFD08-AFDC-497A-8ACB-4C33203664B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659AFD08-AFDC-497A-8ACB-4C33203664B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14484AC-7596-4C3C-A5E4-253DF3EEB4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14484AC-7596-4C3C-A5E4-253DF3EEB4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14484AC-7596-4C3C-A5E4-253DF3EEB4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14484AC-7596-4C3C-A5E4-253DF3EEB4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
