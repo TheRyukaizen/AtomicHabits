@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Infrastructure", "AtomicHabits.Infrastructure\AtomicHabits.Infrastructure.csproj", "{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicHabits.Infrastructure.Tests", "AtomicHabits.Infrastructure.Tests\AtomicHabits.Infrastructure.Tests.csproj", "{AE3BF672-B5F8-4FEE-B2CB-ABCEF0C4718A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D0F29F-4FC9-4C11-8BDA-468C51C07C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3BF672-B5F8-4FEE-B2CB-ABCEF0C4718A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3BF672-B5F8-4FEE-B2CB-ABCEF0C4718A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3BF672-B5F8-4FEE-B2CB-ABCEF0C4718A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3BF672-B5F8-4FEE-B2CB-ABCEF0C4718A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

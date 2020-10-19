@@ -1,28 +1,16 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.ComponentModel.DataAnnotations;
-using System.Threading;
-using System.Threading.Tasks;
-using AtomicHabits.Application.Authentication.DTOs;
-using AtomicHabits.Infrastructure.DAL;
-using AtomicHabits.Infrastructure.MediatR;
+﻿using System.ComponentModel.DataAnnotations;
 using MediatR;
 
 namespace AtomicHabits.Application.Authentication
 {
-    
-    public class CreateUser : ValidatingRequestHandler<ValidatedResponse<CreateUserDto>, bool>
+    public class CreateUser : IRequest
     {
-        private readonly HabitContext _context;
+        [Required, MaxLength(255)]
+        public string UserName { get; set; }
 
-        public CreateUser(HabitContext context)
-        {
-            _context = context;
-        }
+        [Required, MinLength(8)]
+        public string Password { get; set; }
         
-        public Task<bool> Handle(CreateUserDto request, CancellationToken cancellationToken)
-        {
-            throw new Exception();
-        }
+        [Required, EmailAddress] public string Email { get; set; }
     }
 }
